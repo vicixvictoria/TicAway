@@ -1,2 +1,2 @@
 # TicAway
-University project of prototypical mobile App for support of Tourette Syndrome and Tic-Disorders
+Prototypical mobile App for support in Tourette Syndrome and Tic-Disorders in the course of the core-subject specilaization of my masters studies.
