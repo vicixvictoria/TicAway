@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840CBB3F2A65F826007E17AB /* Profile_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CBB3E2A65F826007E17AB /* Profile_Data.swift */; };
+		8421E8672A434BDB00CC14BB /* TicLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E8662A434BDB00CC14BB /* TicLogsView.swift */; };
+		8421E86B2A435F1B00CC14BB /* TicLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E86A2A435F1B00CC14BB /* TicLog.swift */; };
+		8421E86F2A43A26C00CC14BB /* NewTicLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E86E2A43A26C00CC14BB /* NewTicLogView.swift */; };
+		8421E8932A46244700CC14BB /* TicLogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E8922A46244700CC14BB /* TicLogDetailView.swift */; };
+		8421E8962A48ED4100CC14BB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E8952A48ED4100CC14BB /* InfoView.swift */; };
+		8421E8982A4A2A2900CC14BB /* InfoTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E8972A4A2A2900CC14BB /* InfoTSView.swift */; };
+		84AEAD822A3BC61000339D60 /* TicAwayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAD812A3BC61000339D60 /* TicAwayApp.swift */; };
+		84AEAD842A3BC61000339D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAD832A3BC61000339D60 /* ContentView.swift */; };
+		84AEAD862A3BC61200339D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAD852A3BC61200339D60 /* Assets.xcassets */; };
+		84AEAD892A3BC61200339D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAD882A3BC61200339D60 /* Preview Assets.xcassets */; };
+		84AEAD962A3BC85200339D60 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAD952A3BC85200339D60 /* Tabs.swift */; };
+		84AEAD982A3BC9BB00339D60 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAD972A3BC9BB00339D60 /* MainView.swift */; };
+		84AEAD9E2A3BCB0800339D60 /* AwarenessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAD9D2A3BCB0800339D60 /* AwarenessView.swift */; };
+		84AEADA12A3BCB2F00339D60 /* RelaxationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEADA02A3BCB2F00339D60 /* RelaxationView.swift */; };
+		84F5610C2B83F97F00669E44 /* AcuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5610B2B83F97F00669E44 /* AcuteView.swift */; };
+		84F5610E2B84062200669E44 /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5610D2B84062200669E44 /* BreathingView.swift */; };
+		84F561102B8686FD00669E44 /* ProfilView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5610F2B8686FD00669E44 /* ProfilView1.swift */; };
+		84F561122B86A44900669E44 /* PMRTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F561112B86A44900669E44 /* PMRTView.swift */; };
+		84F561142B8FE08900669E44 /* TicSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F561132B8FE08900669E44 /* TicSave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840CBB3E2A65F826007E17AB /* Profile_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Data.swift; sourceTree = "<group>"; };
+		8421E8662A434BDB00CC14BB /* TicLogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicLogsView.swift; sourceTree = "<group>"; };
+		8421E86A2A435F1B00CC14BB /* TicLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicLog.swift; sourceTree = "<group>"; };
+		8421E86E2A43A26C00CC14BB /* NewTicLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTicLogView.swift; sourceTree = "<group>"; };
+		8421E8922A46244700CC14BB /* TicLogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicLogDetailView.swift; sourceTree = "<group>"; };
+		8421E8952A48ED4100CC14BB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8421E8972A4A2A2900CC14BB /* InfoTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTSView.swift; sourceTree = "<group>"; };
+		84AEAD7E2A3BC61000339D60 /* TicAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AEAD812A3BC61000339D60 /* TicAwayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicAwayApp.swift; sourceTree = "<group>"; };
+		84AEAD832A3BC61000339D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84AEAD852A3BC61200339D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AEAD882A3BC61200339D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84AEAD952A3BC85200339D60 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		84AEAD972A3BC9BB00339D60 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		84AEAD9D2A3BCB0800339D60 /* AwarenessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwarenessView.swift; sourceTree = "<group>"; };
+		84AEADA02A3BCB2F00339D60 /* RelaxationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationView.swift; sourceTree = "<group>"; };
+		84F5610B2B83F97F00669E44 /* AcuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcuteView.swift; sourceTree = "<group>"; };
+		84F5610D2B84062200669E44 /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		84F5610F2B8686FD00669E44 /* ProfilView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView1.swift; sourceTree = "<group>"; };
+		84F561112B86A44900669E44 /* PMRTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMRTView.swift; sourceTree = "<group>"; };
+		84F561132B8FE08900669E44 /* TicSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicSave.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AEAD7B2A3BC61000339D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8421E8942A48ED3200CC14BB /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				8421E8952A48ED4100CC14BB /* InfoView.swift */,
+				8421E8972A4A2A2900CC14BB /* InfoTSView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		84AEAD752A3BC61000339D60 = {
+			isa = PBXGroup;
+			children = (
+				84AEAD802A3BC61000339D60 /* TicAway */,
+				84AEAD7F2A3BC61000339D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AEAD7F2A3BC61000339D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AEAD7E2A3BC61000339D60 /* TicAway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AEAD802A3BC61000339D60 /* TicAway */ = {
+			isa = PBXGroup;
+			children = (
+				8421E8942A48ED3200CC14BB /* Info */,
+				84AEAD9F2A3BCB2100339D60 /* Relaxation */,
+				84AEAD9C2A3BCAF500339D60 /* AwarenessTraining */,
+				84AEAD992A3BCAC900339D60 /* TicLogbook */,
+				84AEAD902A3BC68500339D60 /* Pofile */,
+				84AEAD812A3BC61000339D60 /* TicAwayApp.swift */,
+				84AEAD832A3BC61000339D60 /* ContentView.swift */,
+				84AEAD852A3BC61200339D60 /* Assets.xcassets */,
+				84AEAD872A3BC61200339D60 /* Preview Content */,
+				84AEAD972A3BC9BB00339D60 /* MainView.swift */,
+			);
+			path = TicAway;
+			sourceTree = "<group>";
+		};
+		84AEAD872A3BC61200339D60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84AEAD882A3BC61200339D60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84AEAD902A3BC68500339D60 /* Pofile */ = {
+			isa = PBXGroup;
+			children = (
+				840CBB3E2A65F826007E17AB /* Profile_Data.swift */,
+				84F5610F2B8686FD00669E44 /* ProfilView1.swift */,
+			);
+			path = Pofile;
+			sourceTree = "<group>";
+		};
+		84AEAD992A3BCAC900339D60 /* TicLogbook */ = {
+			isa = PBXGroup;
+			children = (
+				84AEAD952A3BC85200339D60 /* Tabs.swift */,
+				8421E8662A434BDB00CC14BB /* TicLogsView.swift */,
+				8421E86A2A435F1B00CC14BB /* TicLog.swift */,
+				8421E86E2A43A26C00CC14BB /* NewTicLogView.swift */,
+				8421E8922A46244700CC14BB /* TicLogDetailView.swift */,
+				84F561132B8FE08900669E44 /* TicSave.swift */,
+			);
+			path = TicLogbook;
+			sourceTree = "<group>";
+		};
+		84AEAD9C2A3BCAF500339D60 /* AwarenessTraining */ = {
+			isa = PBXGroup;
+			children = (
+				84AEAD9D2A3BCB0800339D60 /* AwarenessView.swift */,
+			);
+			path = AwarenessTraining;
+			sourceTree = "<group>";
+		};
+		84AEAD9F2A3BCB2100339D60 /* Relaxation */ = {
+			isa = PBXGroup;
+			children = (
+				84AEADA02A3BCB2F00339D60 /* RelaxationView.swift */,
+				84F5610B2B83F97F00669E44 /* AcuteView.swift */,
+				84F5610D2B84062200669E44 /* BreathingView.swift */,
+				84F561112B86A44900669E44 /* PMRTView.swift */,
+			);
+			path = Relaxation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AEAD7D2A3BC61000339D60 /* TicAway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AEAD8C2A3BC61200339D60 /* Build configuration list for PBXNativeTarget "TicAway" */;
+			buildPhases = (
+				84AEAD7A2A3BC61000339D60 /* Sources */,
+				84AEAD7B2A3BC61000339D60 /* Frameworks */,
+				84AEAD7C2A3BC61000339D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicAway;
+			productName = TicAway;
+			productReference = 84AEAD7E2A3BC61000339D60 /* TicAway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AEAD762A3BC61000339D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84AEAD7D2A3BC61000339D60 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84AEAD792A3BC61000339D60 /* Build configuration list for PBXProject "TicAway" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AEAD752A3BC61000339D60;
+			productRefGroup = 84AEAD7F2A3BC61000339D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AEAD7D2A3BC61000339D60 /* TicAway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AEAD7C2A3BC61000339D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AEAD892A3BC61200339D60 /* Preview Assets.xcassets in Resources */,
+				84AEAD862A3BC61200339D60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AEAD7A2A3BC61000339D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F561122B86A44900669E44 /* PMRTView.swift in Sources */,
+				84AEAD842A3BC61000339D60 /* ContentView.swift in Sources */,
+				84F561142B8FE08900669E44 /* TicSave.swift in Sources */,
+				8421E86F2A43A26C00CC14BB /* NewTicLogView.swift in Sources */,
+				84AEAD982A3BC9BB00339D60 /* MainView.swift in Sources */,
+				84AEAD9E2A3BCB0800339D60 /* AwarenessView.swift in Sources */,
+				84AEAD822A3BC61000339D60 /* TicAwayApp.swift in Sources */,
+				8421E8962A48ED4100CC14BB /* InfoView.swift in Sources */,
+				840CBB3F2A65F826007E17AB /* Profile_Data.swift in Sources */,
+				84AEADA12A3BCB2F00339D60 /* RelaxationView.swift in Sources */,
+				84F561102B8686FD00669E44 /* ProfilView1.swift in Sources */,
+				8421E8982A4A2A2900CC14BB /* InfoTSView.swift in Sources */,
+				84F5610C2B83F97F00669E44 /* AcuteView.swift in Sources */,
+				84F5610E2B84062200669E44 /* BreathingView.swift in Sources */,
+				8421E8932A46244700CC14BB /* TicLogDetailView.swift in Sources */,
+				8421E8672A434BDB00CC14BB /* TicLogsView.swift in Sources */,
+				8421E86B2A435F1B00CC14BB /* TicLog.swift in Sources */,
+				84AEAD962A3BC85200339D60 /* Tabs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84AEAD8A2A3BC61200339D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84AEAD8B2A3BC61200339D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AEAD8D2A3BC61200339D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicAway/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vici.TicAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AEAD8E2A3BC61200339D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicAway/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vici.TicAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AEAD792A3BC61000339D60 /* Build configuration list for PBXProject "TicAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AEAD8A2A3BC61200339D60 /* Debug */,
+				84AEAD8B2A3BC61200339D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AEAD8C2A3BC61200339D60 /* Build configuration list for PBXNativeTarget "TicAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AEAD8D2A3BC61200339D60 /* Debug */,
+				84AEAD8E2A3BC61200339D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AEAD762A3BC61000339D60 /* Project object */;
+}
