@@ -9,3 +9,5 @@ TicAway is a prototypical app which was developed as a support for patients suff
 - **Awareness Training**: Awareness Training is a commonly used exercise in CBIT therapy and this feature should enable the users to also do those tranings efficiently at home. Therefore the app shows a timer and the possibility to log all the tics and premonitory urges of a session. Furthermore it provides tipps and tricks for trainings like this.
 - **Relaxation**: This feature provides three categories for relaxation trainings. **Acute** should support thre users during an acute tic attack with guided breatging techniques. **Breathing** teaches the users different techniques to relaxe the tics and **PMRT** - progressive muscle relaxation training teaches the users how to correctly do PMRT trainings and how they can help with tics. 
 - **Information**: This feature aims to include psychoeducation where the users can read up on their condition and the different therapy possibilities.
+
+<img width="630" height="301" alt="Screenshot 2025-07-21 at 17 52 22" src="https://github.com/user-attachments/assets/22295b90-c25a-44e8-9896-364889132857" />
